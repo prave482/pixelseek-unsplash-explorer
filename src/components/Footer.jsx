@@ -1,0 +1,1 @@
+export default function Footer() { return <footer id="about"><div><strong>PixelSeek</strong><p>A calmer way to discover visual inspiration.</p></div><p>Images powered by <a href="https://unsplash.com" target="_blank" rel="noreferrer">Unsplash</a>. PixelSeek is not affiliated with Unsplash.</p><small>© {new Date().getFullYear()} PixelSeek</small></footer>; }

@@ -1,0 +1,2 @@
+export function Skeletons() { return <div className="gallery skeletons" aria-label="Loading photographs">{Array.from({ length: 12 }, (_, index) => <div className="skeleton" key={index} />)}</div>; }
+export function MessageState({ type, title, message, onRetry }) { return <section className={`message-state ${type}`}><p className="eyebrow">{type === 'error' ? 'A small interruption' : 'No matches yet'}</p><h2>{title}</h2><p>{message}</p>{onRetry && <button className="secondary-button" onClick={onRetry}>Try again</button>}</section>; }
